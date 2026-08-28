@@ -1,14 +1,14 @@
 {
-  "name": "iyose",
+  "name": "future-vision-v3",
   "version": "1.0.0",
-  "description": "Iyose AI",
+  "description": "Future Vision V3 AI server",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "dotenv": "^16.4.5",
+    "cors": "^2.8.5",
     "express": "^4.21.2",
-    "resend": "^4.0.1"
+    "openai": "^5.12.2"
   }
 }
